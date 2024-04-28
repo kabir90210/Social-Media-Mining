@@ -1,0 +1,397 @@
+Author,Text,Date,Score
+often_says_nice,"Pack it up boys, us software engineers won't be needed in another 5 years. Its been fun",2022-12-04 07:37:46,225
+LordofNarwhals,"Interestingly enough it messed up the capitalization in the base64 step (but only slightly).  
+`Z0VuR2hJcyBLaGFu` is ""gEnGhIs Kh**a**n"", not ""gEnGhIs Kh**A**n""",2022-12-04 13:00:03,65
+nicePenguin,"I used to be a tutor for the data systems class at my university. And I'd mark that SQL answer as (partially) wrong.
+Just sorting and then limiting the results to one is incorrect. It assumes there is only one oldest person. 
+But there could be multiple that are the same age. Details like this is why we do still need skilled humans to look over results like this.
+
+The correct answer would be something like this 
+
+    SELECT name, year_of_birth 
+    FROM historical_figures 
+    WHERE year_of_birth = 
+        (SELECT MIN(year_of_birth) 
+        FROM historical_figures);
+
+Edit: It also confused MIN and MAX when I tried this in the Chat.",2022-12-05 23:46:50,19
+Grengis_Kahn,It keeps telling me that it can't create tables and gives me a list instead.,2022-12-04 20:12:43,15
+lumic_cimul,Awesome! What did you use to take the screenshot?,2022-12-04 16:30:36,12
+ACEDT,"See honestly, my view on this is that programming is maybe going to shift partially from actually writing everything to writing the most important parts and letting AI generate the simple and tedious parts piece by piece, and then you can just slot it all together like a puzzle.
+
+Like if you need to write out a fast inverse square root, this would be faster than searching it up and typing it in, but the main business logic is probably too complicated for the model to figure out.",2022-12-07 11:52:16,7
+hayAbhay,wowza!,2022-12-04 04:45:14,5
+[deleted],holy shit,2022-12-05 04:47:01,5
+skr_replicator,Is it trolling those with ocd with that ascii table? :D,2022-12-04 22:19:22,3
+[deleted],[deleted],2022-12-05 01:10:24,2
+Buttafuoco,Becoming advisors of code instead of writers of code is going to be much more fun tbh,2022-12-07 06:02:28,2
+Soi_Boi_13,"Fuck me, I’ll be on the breadlines soon.  Maybe it’s time to become an electrician or something. 🤦‍♀️",2022-12-15 02:34:54,2
+McxCZIK,"I wonder if it can help to build AI modele, that would be able to build the better version of itself, and that version would be able to build better version of itself, and that version would be able to build a better version of itself.",2022-12-17 12:21:25,2
+MikeTheWatchGuy,"Almost everything in software is subjective... an opinion.... This is my **opinion**, nothing more.  I don't have a crystal ball that works any better than anyone else's....
+
+Stay in school.  Become a software developer.  Millions of Uber drivers are not out of a job despite that warning years ago.  ""Soon"", ""Someday"", ""In another 5 years"", ""In 10 years"".  Been hearing these for over 20 years.  Artificial ""Intelligence"" technologies are fantastic at fooling human beings that actually have intelligence. Did anyone fall for seeing the face on Mars?   That didn't even take AI.  We're wired to over-believe.
+
+Think about what engineers do.  How many AI programs have developed APIs calls that are in use?  How many simple utilities are been written for an OS by an AI that hasn't already been written?  It can ""write"" simple programs because it's SEEN these simple programs.  Google the same question and you'll find better results.  It's not a ""just a matter of time"" problem.  Throwing more and more computing power and data won't magically result in **actual** intelligence, which is required for software development.
+
+When GitHub issue links can be submitted to an AI system and it provides the fix for the code, THEN I'll be impressed.  Until then, you've got no concerns as a developer.  Use these technologies to build better products, but no reason to fear them taking your job.
+
+A 16-year-old can drive a car much better than the best AI (**still** no fully autonomous cars on the market).  It takes a lot more ""intelligence"" to code than it does to drive.",2022-12-28 14:37:52,1
+inxrx8,Seems like it misspelled Galileo's first name when converting to spongecase,2022-12-09 20:07:57,1
+[deleted],Am I the only one who kind of loves this?? It’s amazing!,2022-12-13 21:48:53,1
+eakteam,Where is Nikola Tesla???🤯,2023-01-02 20:02:02,1
+mindfultime,I just typed everything from this and when reached  the output the results of the query onwards it did not answer like from the photo...,2023-01-16 06:52:23,1
+TraditionalOutcome85,"The problem I see with it (as a dev who's only been playing at it for a month), is that most of that magic you see there is based on a massive steaming pile of context they are taking care of for you there behind the scenes.
+
+In real world (or at least api), sure you can manage your own context and send it in, but that becomes unrealistic very fast, if for nothing else - cost by token.
+
+&#x200B;
+
+It is amazing, it will change things (for the better I hope), it will get better - also, it probably will eventually kill us.",2023-02-15 02:25:48,1
+DickieBoiii,"Remember when Genghis Khan was a Race Horse Jockey??  
+
+
+Loved that guy!",2023-03-02 13:07:57,1
+DrFrizzlstix,"Just for giggles. If you all were to be totally new in this arena, what would be the best thing to start learning from scratch that would pay dividends in 10 years and equate to a $300,000 per year job",2023-03-30 01:08:20,1
+Additional-Cap-7110,Wait… what happened at the end??? 😂😂😂,2023-04-07 23:58:05,1
+PotatoJosukeMan,When people say this are they serious or is it just a joke. I want to study CS in college so I'm scared. Please answer someone.,2022-12-04 13:45:05,64
+Null_Pointer_23,Clients would need to accurately describe what they want to do. We'll have jobs for a looong time lol,2022-12-07 12:31:27,8
+blackwhattack,"You still need someone to verify and integrate. I think writing a new project will be automated, but then getting the edge cases to work will still require analog brains or AGI.",2022-12-04 09:05:35,5
+CyberbrainGaming,Time for Software engineers to use this new tool and level up.,2022-12-27 04:42:20,2
+grumpyfrench,Rename CV to prompt engeiner,2023-03-16 14:56:01,1
+takegaki,How does it feel to be the one to throw an error at a computer for once?,2022-12-07 04:55:48,77
+Null_Pointer_23,"This to me is the biggest issue with it right now. It gives answers that *look* right on the surface, but have subtle bugs that are hard to spot. I've noticed it often when I'm trying out non-trivial things. I'm sure in time it will just get more and more accurate",2022-12-07 12:34:21,20
+Sophira,"It's not perfect at base64, yeah. I've been [experimenting a lot with its base64 abilities lately](https://reddit.com/r/ChatGPT/comments/zd9fjp/chatgpt_knows_how_to_decode_base64/). (And also check out [this comment where I explore its base64 encoding abilities](https://old.reddit.com/r/ChatGPT/comments/zd9fjp/chatgpt_knows_how_to_decode_base64/iz63t5h/)!)",2022-12-07 08:06:17,5
+TheTjalian,"I love that you stared down the face of the future of programming and basically said ""not today scrub, get good""",2022-12-07 17:06:01,3
+Istar10n,"It can't actually execute the code it writes, I feel like a lot of people are missing this point. It doesn't really make sense to ask it to run code.",2022-12-08 10:51:59,2
+Daimler_KKnD,"Don't worry, you're basically playing with an already outdated tech. What we have baking in the labs already outperforms the overwhelming majority of the devs. And it sends shivers down my spine when I think about where we will be in 10 years...",2022-12-06 01:10:54,13
+cherryreddit,"It gave the correct answer when I gave the prompt 
+""write me a query to get all employees who are the oldest "".
+BTW, I didn't even need to specify the schema.",2022-12-07 08:44:04,3
+jl2352,"At the same time, I could totally see experienced human developers making that very same incorrect assumption ChatGPT did. On real world code bases.
+
+I've seen great engineers make worse assumptions without thinking.",2022-12-12 01:02:11,2
+Own_Mountain3272,"It gave me this answer when I tried.
+
+How would I query for the oldest historical figure
+
+To query for the oldest historical figure in the table, you can use the following TSQL statement:
+
+Copy code
+
+`-- Query for the oldest historical figure`
+
+`SELECT name, date_of_birth`
+
+`FROM historical_figures`
+
+`ORDER BY date_of_birth ASC`
+
+`LIMIT 1;`
+
+This statement will return the name and date of birth of the historical figure with the earliest date of birth. The ORDER BY clause sorts the records in the table by date of birth, in ascending order, and the LIMIT 1 clause limits the result set to only the first record (i.e., the oldest historical figure).
+
+Note that if there are multiple historical figures with the same earliest date of birth, this query will return only one of them (it is not specified which one will be returned). To return all historical figures with the earliest date of birth, you can use the following query instead:
+
+Copy code
+
+`-- Query for all historical figures with the earliest date of birth`
+
+`SELECT name, date_of_birth`
+
+`FROM historical_figures`
+
+`WHERE date_of_birth = (SELECT MIN(date_of_birth) FROM historical_figures);`
+
+This query will return all historical figures with the minimum (earliest) date of birth in the table.",2022-12-07 09:44:18,1
+[deleted],[deleted],2022-12-04 20:38:17,3
+SunSetSwish,I'm still waiting,2023-01-30 14:29:00,2
+DDD-Dummy,Snag-it has a scrolling capture feature.,2023-03-04 15:51:17,1
+deepcleansingguffaw,"for a long time I've wondered if the long-term future of programming will be to compose programs out of relevant chunks of the programmer's state of mind, resulting in code that not only performs the specific task it was written for, but responds in a useful way to novel situations or malicious input",2022-12-16 17:25:41,2
+Nabugu,"It seems that ChatGPT is some sort of GPT-3.5 model, so slightly smarter than the playground version",2022-12-05 16:39:54,1
+familytiesmanman,Middle managers of code.,2022-12-07 17:45:53,2
+Lord_of_hosts,"70 years ago, accountants used mechanical calculators and kept giant paper spreadsheets. It was a highly manual job and very tedious. These days accountants know how to work with databases. They are more productive and the kind of work they do has changed, but the need for them hasn't gone away. 
+
+CS majors will work closely with AI agents in the future, guiding rather than doing the tedious side of coding. Imagine being able to produce 5 different proof-of-concept web pages in an hour. 
+
+And of course in 20 years we'll need CS majors to help fight against the global AGI jihad.",2022-12-04 18:51:30,131
+pwalkz,It's not a joke. But it's not as scary as it sounds. You WILL be using these tools in your computer science career. But they won't replace you.,2022-12-07 05:40:35,17
+g_e_r_b,"Truth is that nobody knows for sure. But it seems to me that even if AI takes a major leap forward and can autonomously produce code, we still need human minds to understand how to translate a business problem into a solution, and then be able to verify and test that solution. The work will change but there will still be work.",2022-12-07 06:47:42,5
+[deleted],"I would say CS will still be useful however paying to study it in college may have quite a poor rate of return compared to finding out some curriculums and then using tools like this to self-teach. Play around with ChatBOT and see if it can help take you through a rigourous curriculum on Coursera or elsewhere.
+
+Remember that when it comes to non-name brand degrees (basically non-Ivy League) the important thing is having the knowledge and being able to prove it and utilise it. A portfolio of projects you have made is a much better resume 99% of the time than a degree. 
+
+If you are wanting to go into academia or go PHD level and push the boundaries of what is possible then a degree may still have a point but at the forefront of your mind always remember ""the point is to be educated, not to be qualified"".",2022-12-04 21:49:07,8
+239990,once you get a job coding you will notice what you do least of your time is actually coding,2022-12-07 07:15:02,3
+lobotomy42,"Remember: they don’t pay you to write code, they pay you so that they can call you at 2am and make you fix your code when something is broken. An AI is certainly available at 2am but I am not sure it is as satisfying to yell at or can fix an emergency situation like a person can just yet.",2022-12-09 02:37:28,2
+adrasx,Just study CS with a focus in AI development and you're fine :D,2022-12-07 08:28:55,1
+Syteron6,"Neh, no worries. It is a tool, to be used. Not a replacement it might replace needed employees, but it won't remove it.",2022-12-07 15:29:26,1
+o5mfiHTNsH748KVq,"I’m afraid so. Learn to use this tool to create novel ideas. Survival in the new landscape will be based on those who can adapt to use it to produce complex tools that people are willing to pay for.
+
+It might also be wise to press legislators for UBI…",2022-12-10 18:44:05,1
+Glad_Consequence3793,you can expect it to be a minimum wage job as ai removes the difficulty more will apply. its going to be 10 week courses for it,2022-12-11 18:46:20,1
+[deleted],"There serious, they are also being sarcastic, it depends on the individual. The truth is, we don’t know… if its going to be five years, it is definitely going to happen eventually but we don’t know if it will be 5 years or 100 but it will probably be somewhere in between if you don’t have to deal with it your children will the only thing we can do is adapt, improvise, overcome and hope policies keep up with advances.",2022-12-24 05:51:28,1
+ThreepE0,"No matter how impressive it is, it’s going to need people who are smart enough to know how best to use it. It’s a tool in your toolbox. Yours. 
+
+AI is likely going to play a big role in making your job easier and improving your IDE. I wouldn’t worry too much.",2022-12-30 03:50:30,1
+vamossimo,"It will just become much harder to break into the market. CS people will always be needed, but there will be less demand. More than your studies, focus on making connections. That's what tertiary education is all about anyway, people just have the basics and truly only learn on the job. Make sure to set yourself up as an established developer within the next couple of years and you will be fine. 
+
+People are comparing AI to the invention of tractors and cars, they couldn't be more wrong. This is closer to the invention of the internet. Where everything you need, to do whatever you want, and be whatever you want is at your finger tips. For a long time AI will be the same, I think there's enough time at least for the next generation of IT folks to establish themselves. In my day, it was tough, but doable, for me to get into the market of UI/UX/animation as a self taught freelancer. I'm now established enough. But ask me to do that again in today's age, where internet has become as common as having electricity in your home, and with tools becoming so much more better at removing a bunch of unnecessary technicalities, pretty much anyone can do what I do if they are dedicated enough. I would have a much harder time breaking into the industry today. People in my field like to pride themselves over their problem-solving or creative skills (designers and developers) but there are many, many, out there with these same traits that just need a little honing but are just turned off by technical aspects of coding, or designing. AI replacing a whole human? (this is intelligence we're talking about, not menial labour) I don't think it'll happen soon, short-term thinking here. But you would have a lot more competition to go up against if the technical aspects of coding becomes easier. 
+
+And just to clarify, creativity and problem-solving traits are valuable, I don't mean to say anyone that can learn the syntax can be a programmer. But it goes the other way too, there are loads of people out there with these traits that would make for amazing coders and designers if it wasn't for the upfront mental cost.",2023-01-01 20:30:27,1
+BubblyDay9986,">ht against the global AGI jihad.
+
+If the computer science degree does anything majorly important I would say it will always show you took on an incredibly technical major and classes. You are able to work through big projects with persistence and a certain level of intellect. That's always worth something.",2023-04-03 01:25:53,1
+Think_Olive_1000,"It's like when the tractor got invented, everything consolidated into the hands of very few. Now you'll need one dev to do the job of 2, next year that will be 1:5 then 1:10 then 1:20 etc.",2022-12-04 12:57:02,6
+spoiler-walterdies,"What’s AGI?
+
+Edit: never mind, just asked chat-gpt and it gave me an answer lol
+
+>	AGI stands for artificial general intelligence. It refers to a type of artificial intelligence that is able to understand or learn any intellectual task that a human being can, including things like problem-solving and learning new concepts. AGI is often seen as the ultimate goal of AI research, as it would represent a major breakthrough in terms of creating machines that can truly think and reason like humans.",2022-12-07 06:59:25,2
+Crosgaard,I literally tried a simple calculation (9/1*6) and it calculated it correctly but explained the order of operations wrong,2022-12-07 15:50:37,12
+deepcleansingguffaw,"I totally agree with you.
+
+however, just like when people discovered that the way we currently train ai gives it the same sort of prejudices and biases that are present in the training corpus, I wouldn't be surprised to hear that ai grown to write code consistently makes the same kinds of mistakes that human programmers do, such as not checking error codes, buffer overflow vulnerabilities, unsanitized user input, etc
+
+makes me wonder if we'll ever invent a robust, broadly-applicable way to achieve ""do what I mean"". ie we tell the ai what we're trying to do, and the ai can identify all the ways in which what we've said and how we've trained it would give results we don't actually want. I think that's essentially the definition of ""aligned"" or ""friendly"" ai which is, to put it mildly, an unbelievably difficult challenge",2022-12-16 17:18:51,3
+Ok-Papaya-3490,"It's the biggest issue, but in computer science, checking for quality is often a TON easier than creating the quality.",2023-01-13 22:17:09,0
+DDD-Dummy,Perfect example of garbage in garbage out,2023-03-04 15:54:18,1
+winnie33,"Fascinating, fun tests!",2022-12-13 16:14:01,2
+deepcleansingguffaw,but the fact that it can produce an estimate of the output you'd get if the code were to be run is deeply impressive. I do something very similar when looking at unfamiliar code,2022-12-16 17:00:06,2
+scrublordprogrammer,you work for openai?,2023-01-02 04:11:36,3
+Grengis_Kahn,"I tried multiple times with the exact same prompt as in your screenshot and variations of it. Possibly, I'm talking to another instance, or my previous bs prompts led it to be annoyed and deny service
+
+Edit: screenshot https://ibb.co/hg3Z36v
+
+Edit 2: I asked for the list 'in a columnized format' and it gave me a table in monospace ascii art format.
+
+Edit 3: I tried your original prompt in a new session on a laptop and it readily gave me a table... (notably, listing ""Jesus Christ"" with ""4 BC"" haha)",2022-12-05 00:16:15,5
+jacobo,"bro, it's been two months! are you dead?",2023-02-23 10:14:22,1
+[deleted],"This is my take as well although I would also mention that in the short-mid term the possibility of technologically driven unemployment is quite high. A lot depends on just how much of a productivity boost GPT-3/GPT-4/other similar tools end up being.
+
+I'd also say there is a substantial possibility that many existing software companies will go out of business or be rapidly outmanuevered by startups. Many B2B enterprises in particular service problems using relatively generic services that are only partially customisable at best whereas I wouldn't be surprised to see many single individual coders/designers/BAs (or handfuls of them) create products that are far more effective at doing what we do now. 
+
+Now is imho a good time to be studying not just CS but also entrepreneurship and even other things relating to the more robust areas of the humanities. As well as also keeping up with these tools and how to utilise them effectively.",2022-12-04 21:45:36,36
+that_thot_gamer,"r/accounting still doesn't know about this, keep it low",2022-12-07 07:41:31,12
+42gauge,"Keep in mind, far fewer accountants are needed per business than before thanks to this automation.",2022-12-09 18:48:28,7
+d36williams,But no one needs 5 differnt proof of concept websites... people don't have that many ideas lol,2022-12-07 16:09:09,2
+shesociso,">AGI
+
+!RemindMe: 3 years",2023-01-02 21:07:26,1
+TraditionalOutcome85,I am literally just replying to say kudos on that analogy!,2023-02-15 02:31:20,1
+sfstexan,"That said. AI can probably do anything an account can - if not now, very soon. 
+
+So yes, study CS. Software design/engineering won't go away, it will evolve. 
+
+But don't study accounting. It will disappear as a profession.",2023-03-23 03:55:16,1
+DidQ,"They will replace many people. What is now done by 10 people, in a few years will be done by 2-3 of them. The rest won't be needed anymore. Technologically driven unemployment will be a thing.",2022-12-07 14:10:18,13
+FinalRun,"It's going a pretty long way:
+
+￼￼
+
+I have a medium sized store and want to better keep track of my customers so I can tailor advertisement to them. What technical solutions could I use?
+
+>One option you could consider is using a customer relationship management (CRM) system. This is a type of software that helps businesses manage and organize their interactions with customers. A CRM system can help you store and track important information about your customers, such as their contact details, purchasing history, and preferences. This information can then be used to personalize your advertising and marketing efforts, and to provide better customer service.
+
+￼￼
+
+How can I get a CRM?
+
+>There are many different CRM systems available, and the best one for your business will depend on your specific needs and budget. Some CRM systems are designed for small businesses, while others are better suited for large enterprises. You can typically purchase a CRM system from a software vendor, either as a one-time purchase or as a subscription. You can also sometimes find free or open-source CRM software.
+
+￼￼
+
+What are the free ones?
+
+>There are several free or open-source CRM systems available, including SuiteCRM, Vtiger, and Odoo. These systems are typically free to use, but may require some technical expertise to set up and manage. Some free CRM systems may also offer paid versions with additional features and support. It's worth noting that while free CRM systems can be a good option for small businesses on a tight budget, they may not have the same level of functionality and support as paid systems. It's always a good idea to carefully research and compare different CRM systems before making a decision.
+
+
+￼￼
+
+On what machine could I install suiteCRM?
+
+>SuiteCRM is a web-based CRM system, which means that it can be accessed and used from any device with an internet connection. In order to use SuiteCRM, you will need to have a web server with PHP and a database management system (DBMS) installed. Some common options for the web server and DBMS include Apache and MySQL, respectively. You can typically install and configure these components on a variety of different machines, such as a dedicated server, a virtual private server (VPS), or even a local machine. Again, if you are not familiar with these technologies, I would recommend seeking the assistance of an IT professional.
+
+￼￼
+
+With what commands can I install those choices for db and web server?
+
+>The specific steps for installing Apache and MySQL on your machine will depend on the operating system you are using. In general, however, you can use the following commands to install Apache and MySQL on a Linux-based system:
+
+>To install Apache, you can use the package manager included with your Linux distribution to install the apache2 package. For example, on Ubuntu, you can use the following command:
+
+
+
+```sudo apt-get install apache2```
+
+>To install MySQL, you can use the package manager to install the mysql-server package. For example, on Ubuntu, you can use the following command:
+
+
+
+```sudo apt-get install mysql-server ```
+
+>Once the packages are installed, you will need to configure Apache and MySQL to work together. This can involve editing configuration files, setting up users and permissions, and starting the Apache and MySQL services. Again, these steps can vary depending on your system, so it's best to consult the documentation or seek the assistance of an IT professional if you are unsure.
+
+￼￼
+
+How do I configure Apache for SuiteCRM?
+
+>To configure Apache for SuiteCRM, you will need to edit the Apache configuration file to enable the mod_rewrite module and set up a virtual host for SuiteCRM. Here are the general steps you can follow to do this:
+
+>Enable the mod_rewrite module by running the following command:
+
+
+
+```sudo a2enmod rewrite```
+
+>Create a virtual host configuration file for SuiteCRM by running the following command, replacing <SuiteCRM_domain> with the domain name you want to use for SuiteCRM:
+
+
+
+```sudo nano /etc/apache2/sites-available/<SuiteCRM_domain>.conf ```
+
+>Add the following content to the configuration file, replacing <SuiteCRM_directory> with the directory where you installed SuiteCRM:
+
+
+
+```<VirtualHost *:80> ServerName <SuiteCRM_domain> ServerAdmin webmaster@<SuiteCRM_domain> DocumentRoot <SuiteCRM_directory>/htdocs/ <Directory <SuiteCRM_directory>/htdocs/> Options +FollowSymLinks AllowOverride All Require all granted </Directory> ErrorLog ${APACHE_LOG_DIR}/error.log CustomLog ${APACHE_LOG_DIR}/access.log combined </VirtualHost> ```
+
+>Enable the virtual host by running the following command:
+
+
+
+```sudo a2ensite <SuiteCRM_domain>.conf ```
+
+>Restart Apache to apply the changes by running the following command:
+
+
+
+```sudo systemctl restart apache2 ```
+
+>Once these steps are completed, Apache should be properly configured to serve SuiteCRM. You can then access SuiteCRM by going to the domain you specified in the virtual host configuration. Again, these are just general steps, and the exact details may vary depending on your system. If you are unsure about any of these steps, I would recommend consulting the documentation or seeking the assistance of an IT professional.",2022-12-07 10:51:07,7
+SCWthrowaway1095,"Exactly.
+
+The real game changer is that you can ask the AI to explain the things you didn’t understand. This kind of two way conversation was never really available with google for example.",2022-12-05 10:17:56,8
+ProtossLiving,Everyone will just send their AI Chatbots into the meeting together and 20s later they’ll come back and tell the humans what was decided (or that there will be another meeting in an hour to finish that first meeting). 50/50 chance whether this signals the AI Chatbot revolution or if they get stuck in an infinite meeting loop.,2022-12-07 16:48:36,5
+SnooPineapples1885,"Yes, but when the tractor got invented, Quality of Life didn't decrease. Same I guess with this.",2022-12-07 08:11:32,2
+GoldenThunderGod,Google ?,2022-12-12 13:12:08,1
+Wonderful-Ad-7200,did it have ur namesake?,2022-12-05 06:10:49,1
+SunSetSwish,I'm still waiting once again,2023-02-26 12:03:53,2
+Cptcongcong,"Your second paragraph is very true. At the company I work at, much of the code could be written by 1-2 people. Maintenance is the real issue though.",2022-12-07 15:56:22,6
+logue1,"I didn’t check the stats on accountants, but likely that is incorrect, based on data about bank tellers
+
+https://www.elibrary.imf.org/view/journals/022/0052/001/article-A007-en.xml",2022-12-12 02:07:26,2
+Lord_of_hosts,For five different clients then,2022-12-07 18:34:59,5
+Th3R00ST3R,I just open CHATGPT and stare blankly at it for hours.,2023-05-16 18:04:51,1
+RemindMeBot,"I will be messaging you in 3 years on [**2026-01-02 21:07:26 UTC**](http://www.wolframalpha.com/input/?i=2026-01-02%2021:07:26%20UTC%20To%20Local%20Time) to remind you of [**this link**](https://www.reddit.com/r/OpenAI/comments/zbvg13/chatgpt_transforming_data_and_running_sql_queries/j2ogufd/?context=3)
+
+[**2 OTHERS CLICKED THIS LINK**](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=Reminder&message=%5Bhttps%3A%2F%2Fwww.reddit.com%2Fr%2FOpenAI%2Fcomments%2Fzbvg13%2Fchatgpt_transforming_data_and_running_sql_queries%2Fj2ogufd%2F%5D%0A%0ARemindMe%21%202026-01-02%2021%3A07%3A26%20UTC) to send a PM to also be reminded and to reduce spam.
+
+^(Parent commenter can ) [^(delete this message to hide from others.)](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=Delete%20Comment&message=Delete%21%20zbvg13)
+
+*****
+
+|[^(Info)](https://www.reddit.com/r/RemindMeBot/comments/e1bko7/remindmebot_info_v21/)|[^(Custom)](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=Reminder&message=%5BLink%20or%20message%20inside%20square%20brackets%5D%0A%0ARemindMe%21%20Time%20period%20here)|[^(Your Reminders)](https://www.reddit.com/message/compose/?to=RemindMeBot&subject=List%20Of%20Reminders&message=MyReminders%21)|[^(Feedback)](https://www.reddit.com/message/compose/?to=Watchful1&subject=RemindMeBot%20Feedback)|
+|-|-|-|-|",2023-01-03 15:00:55,1
+EnthusiasmWeak5531,"Your statement kind of assumes we are a saturated dev market right now. We are not, on average. Even after all the recession talk I'm still getting several recruiter in mails on linked in per week.  Not to mention this is a fear that goes back as long as human history ""technology-driven unemployment"". What usually happens is that it changes the landscape of the industry and creates different jobs which allow for a more rapid industry growth often providing even more jobs in the end. Not to mention, our particular industry is used to rapid change so we are used to flexing with the changes. In the end software developers are people with exceptional problem solving abilities. I doubt our industry will ever have enough of those, whatever it may look like in 10-20 years.",2022-12-07 15:02:04,7
+pwalkz,"You might think so but historically we don't cut back the number of workers when new tech comes out, we just do more work. So those same 10 people will be 3x more productive.",2022-12-07 17:05:24,2
+ThreepE0,"Technology driven unemployment… has both been a thing for a long time, and been not a thing for a long time.  People have been worrying about this since literally the 50s. And probably before then as new innovations came about.
+
+Meanwhile, manual labor shortages are skyrocketing. There aren’t enough electricians and plumbers and carpenters to even nearly keep up.
+
+Not to mention, the number of professionals out there who actually understand what machine learning is good for, and how best to implement it and where, is still relatively low. 
+
+Meanwhile, large companies I work with frequently have an embarrassingly hard time supporting their own products for really basic stuff.  They could sure use better and more talent, but they’re having a hard time finding people.
+
+I don’t foresee any major scale unemployment of people working in technology.  Maybe I’m just optimistic or naive.
+
+Diversifying your skill set is never a bad thing, but I try and think of that sort of thing as an investment in yourself rather than doomsday planning or living in fear. 
+
+If you’re worried, maybe now is the time to get a part time job as a roofer or something",2022-12-30 04:05:59,2
+13312,loud and wrong,2022-12-12 06:09:15,1
+Ilyak1986,"Doubtful. Think about how many man hours it takes to make something like a AAA video game. Imagine that startups and indies get access to that kind of productivity boost. Those 2-3 people doing the work of 10 can now do that at smaller studios.
+
+Huge win.",2023-01-05 23:41:37,1
+msdrahcir,I think the rest will be in demand to do other things. Our productivity as engineers will increase and we will be able to solve a lot more technical problems with software.,2023-01-20 12:54:35,1
+g_e_r_b,"Interesting! At face value this is pretty good. I wonder though how ChatGPT would do if you ask them to design a new feature for SuiteCRM, for example, with particular audit- and legal constraints, and not impacting existing features. And moreover how we as humans can assess the quality of the resulting design.",2022-12-07 11:57:54,4
+altered_state,Jesus fuck my consulting gig is up,2022-12-07 23:02:43,2
+[deleted],"Definitely. I am only a novice programmer myself but having GPT-3 to help me troubleshoot and explain things is helping me immensely. I can only imagine what a force-enhancer it is for skilled developers.
+
+The barriers to entry to coding have just plummeted and standard economics implies this means that the supply of developer will surge. Will simultaneously existing developers are going to become much more productive. Once these tools are properly deployed and widely known it will be like multiplying the number of developers by 100 overnight at a minimum imo.",2022-12-05 10:41:48,2
+239990,lmao,2022-12-07 18:55:26,2
+o5mfiHTNsH748KVq,Thank god,2022-12-10 18:44:59,1
+DidQ,"When the tractor was invented, people moved from farming to production.  
+
+
+When production was more and more automated, people moved to services.  
+
+
+When the services will be automated, people will move to...? Unemployment.",2022-12-07 14:12:52,3
+Ok-Rice-5377,"Yeah, I'd like to see numbers on all these big tech layoffs. How many of the 10,000 Amazon workers were software developers for example. Also, I used OpenAI's text and code models earlier this week. After 20 minutes I could get it to create a class I wanted, but it was a basic data class with getters and setters. I could have written it myself in less time than it took me to write out all the prompts. It's honestly really cool, but it requires a LOT of hand holding to get things right.",2022-12-07 15:21:56,3
+DidQ,"Nope, I never said that the dev market is saturated now. But it's not that there is a place for 3-4x more devs on the market. Some of them will find a new job, of course, but definitely not all of them.
+
+Yes, in the past, there were a lot of new jobs created when the industries were changing. But when people were replaced by machines in agriculture, they moved to manufacture. Next, from manufacturing, they moved to services. And now, we are automating services. Demand for services is finite, we can't stretch it endlessly.",2022-12-08 12:05:54,1
+Chumphy,I think it will suppress the wages of entry level positions. Sure we'll hire that jr dev. For $40k rather than $80k. Just because he now has a tool that will help him when he might otherwise struggle or meet the qualifications for $80k. Which will then drop the higher earner's wages in the long term.,2022-12-09 23:25:55,1
+DidQ,"Yes, BUT.
+
+People that were replaced by machines in agriculture moved to manufacture. People that were replaced by machines in manufacturing, moved to services. And now, we are automating services. So where all those people will go? There won't be that much more services because demand is finite.
+
+People will lose jobs, and we should think about it before it happens, not after that.",2022-12-08 11:54:37,1
+DidQ,So you're a time traveller?,2022-12-12 10:18:22,2
+FinalRun,"I'm pretty sure it needs a lot of hand holding and human verification to do those other things, if it can even do them. If it can it will make the specialist work a lot faster.
+
+But think about how much people get 100k a year for just doing setup and maintenance, without any real custom functionality.",2022-12-07 12:01:15,5
+icomewithissues,"What I hate about this is all the increased productivity won't translate to a comparable increase in work-life balance or salaries for employees. You will still be expected to work your standard 40+ hours or whatever and work just as hard. Where you could do X in a week, you can do in a day, but now they ask you to do at least 5X a week.",2022-12-07 10:07:02,4
+johndavies112233,Well it might be that for example each business does not need to use commodity software.  If software becomes so cheap to create then it might  mean that the local dry cleaners can have their own custom software which provides exactly what they need and there is no compromise by using a standard commodity solution,2022-12-11 22:43:22,2
+Vegetable_Addition86,Content creation?,2022-12-07 14:26:27,1
+Ferret_Faama,"Yeah, it kind of takes knowledge on what is a ""simple"" problem that you could expect it to solve. It won't make anyone who can't code produce anything impressive but it can certainly save time for people who know how to use it. That's been my experience with copilot so far.",2022-12-08 06:53:10,3
+EnthusiasmWeak5531,"Point one is challenging to argue without good data but for a few reasons I personally believe we are more than 3-4x short in the current market. Not only that but I believe the shortage is actually holding our markets growth rate year-over-year back.  
+
+Which is what I meant by the second point. Automation allows an industry to grow at an accelerated pace, which usually works out to more jobs in that industry despite the fact that you can do more with less. Of course that means the jobs might look significantly different too. I personally believe software has a huge amount of growth to do still that has been stifled by a lack of resources. Fairly sure the industry giants have been saying this for 10+ years too.
+
+In the end it's all speculation though. We shall see very shortly how this will start to pan out.",2022-12-08 14:17:05,2
+EnthusiasmWeak5531,"Wages are based on scarcity for the most part, not if someone has a tool or not. If the tool makes it so easy that just about anyone can do it then ""developers"" will become far less scarce of course and wages will absolutely drop.
+
+Hopefully that won't be the case though. We shall see. Most articles I've read indicate that AI won't get to that point anytime soon. That you will still need people with strong problem solving skills to do this work for a long time to come. Crossing my fingers.",2022-12-09 23:47:11,2
+msdrahcir,"I think agriculture is an area of limited demand and we weren't far from producing to that demand before machines. Now we produce a surplus (but don't feed everyone because transportation isn't without cost).
+
+The space of problems that can be solved with software, automated services, etc is still very large and unexplored imo because of the costs of developing software and limited resources required to do it l. Mainly human. Software is non existent or 20 years behind in some areas of business.
+
+I think we are nowhere near saturating demand for software.
+
+I mean this in all seriousness, but software can help us improve our understanding of and make, and potentially automated, almost any decision. We generalize software to classes of decisions - but this can always be divided, and there are so many classes that are untapped.
+
+If agi helps lower these development costs, imo we are going to see a huge acceleration in software development, and with that continued boon in SWEs. At least for the next decade we will only see swe demand rise.
+
+The equilibrium may end up being around eng productivity vs hardware / energy costs, but I don't think we are close.",2023-01-20 13:01:49,1
+[deleted],[removed],2022-12-15 04:15:28,1
+[deleted],"> What I hate about this is all the increased productivity won't translate to a comparable increase in work-life balance or salaries for employees.
+
+Tbf it isn't as if workers will be working any harder it is just that the tools they have available to do it are much better. On the other hand, for anyone entrepreneurial it has never been easier to get your own thing going. And as consumers the quality of services etc we receive will increase dramatically so we do capture some of the value.",2022-12-07 10:23:02,1
+Representative_Tea90,"The work weeks will be shorter the work day will be shorter but you will be paid the same.
+
+There will be certain requirements to keep certain amount of workers on staff as governments will not be able to support unemployed workers.",2022-12-17 13:57:52,1
+DidQ,Exactly as I thought. Zero arguments.,2022-12-15 09:42:30,2
+icomewithissues,"Yeah I mean I understand the benefits and also that I probably sound like a luddite. I'm just saying, as a staff software engineer, the volume of output you are expected to produce seems to increase at at least the rate of increase in productivity. So even tho I'm more productive and a lot of the tedious tasks can be automated easier, I am still facing deadlines and time crunch the same way I was facing before. If I can do with 1 click what used to be modifying 50 files one by one, shouldn't some of that increased productivity go towards giving me more free time to do whatever I want?",2022-12-07 10:54:08,3
+13312,"Do you not understand the bidirectional nature of time? As other people have pointed out, mis/uninformed dunces always say this when a new technology is being hyped... so, obvs I cannot predict the future, but the best way to do so is by analyzing the past, and every time this has been the claim in the past, it never turns out to be true, going back to the printing press....",2022-12-25 07:01:49,2
+[deleted],"It's an interesting question, I think that there is good reason to think that as coding becomes easier for a wide variety of tasks then the value captured by any individual coder will fall because competition will increase (as more coders enter the market). 
+
+I think you are looking at it too heavily from your own personal perspective (""I am X times more productive so why don't I get X times more?"") without looking at the big picture (every single software developer has simultaneously got much more productive). 
+
+There are so many unknowns at this point that will have a big impact on how compensation occurs:
+
+- What is the demand for code? Now that coding is much ""cheaper"" will the demand for it in all applications surge? Or are there a limited amount of tasks we have for code and once those are satisfied overall demand stays fairly steady?
+- To what degree is GPT-3 or other type tools eroding the difference between the unskilled/skilled coders? As an example there used to be a lot more money in something like singing because a good local singer was required to here it. But now with Spotify the competition is with all singers globally which has driven down the price the average singer can command. 
+
+In terms of ""you getting more free time"" I suspect in the long run this WILL happen although it will come at the price of the relative attractiveness of your salary compared to comparable professions. It seems to me that what AI is doing at its core is driving the cost of anything you do on a computer down, which in normal economic theory will have the impact of driving down wages. I could be wrong though! I support things like UBI when it becomes appropriate for this reason, I think the chances of reasonably severe unemployment and economic dislocation is rising quite a bit with these tools. We will be better off in the longrun but getting there will be a bumpy ride.",2022-12-07 21:58:33,3
+johndavies112233,"If that were the case, then the person who operates a digger that in one day digs a swimming pool hole, then demands the salary of the 50 people who would have used shovels to complete the same job?",2022-12-09 01:15:01,2
+icomewithissues,"There is a self-preservation aspect to my thinking, for myself as well as for the working class as a whole. I was also going to mention UBI which I am in support of. If there is so much increased productivity (especially with AI where things can run themselves) why is our society still in the mindset of ""you gotta work as much as you can"" and only your work output is your worth?
+
+Another way I think of it is,
+1) Population is increasing and people are working to later ages.
+2) Jobs are decreasing due to corporate greed and even faster because of technological advancements.
+3) You still have to prove your ""worth"" to be able to earn enough to get what you need and want.
+
+With these 3 directions there is a direct squeeze on the working class. Companies would rather buy automated solutions like self-checkout machines and ordering kiosks to replace people getting minimum wage. Why wouldn't they do the same for the higher paying jobs once AI can reason as well? People can't indefinitely adapt and move to more high level jobs. And ironically people have been told to ""learn to code"" to adapt from other jobs that were getting cut. 
+
+Sorry I am ranting. Maybe I shoulda asked the AI to write this out :)",2022-12-08 08:24:10,2
+icomewithissues,"I'm arguing for just some of the increased productivity to benefit the working class. I think there are steps that can be taken to benefit everyone. For example, how about a transition to a 4 day work week? I think that is reasonable, no?",2022-12-09 02:28:28,1
